@@ -1,0 +1,159 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1366px;
+}
+
+#products .card-body img {
+  box-shadow: 0px 2px 4px #00000029;
+  padding: 15% 12%;
+  min-width: 100%;
+  height: 12vw;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.tab-pane.active {
+  min-height: 100%;
+  background-color: white;
+  padding: 16px 24px;
+  border: 1px solid #70707025;
+  border-radius: 0 5px 5px;
+  box-shadow: 0 2px 4px #00000029;
+}
+
+.tab-pane p {
+  font: 16px/24px Lato;
+  color: #707070;
+  margin: 0;
+}
+
+#area .nav-tabs .nav-link {
+  font: 18px/22px Yanone Kaffeesatz;
+  color: #707070;
+  padding: 8px 0 5px 24px;
+  border: 1px solid #70707025;
+  box-shadow: 0 2px 4px #00000020;
+  background-color: #F7F7F7;
+  border-radius: 0px;
+}
+
+#area .nav-tabs .nav-link.active, #faq .nav-tabs .nav-link.active {
+  color: #65924F;
+}
+
+#faq .nav-tabs .nav-link {
+  font: 18px/22px Yanone Kaffeesatz;
+  color: #707070;
+  padding: 8px 3rem 5px 24px;
+  border: 1px solid #70707025;
+  box-shadow: 0 2px 4px #00000020;
+  background-color: #F7F7F7;
+  border-radius: 0px;
+}
+
+.carousel-item.active {
+  max-width: 1366px;
+}
+
+.carousel-item img {
+  height: 40vw;
+  max-height: 525px;
+  object-fit: cover;
+}
+
+#buy button.btn.plus, #buy button.btn.minus {
+  background-color: transparent;
+  color: #65924f;
+  padding: 1px;
+  font: 16px/21px 'Segoe UI';
+  margin: auto;
+  border: none;
+}
+
+.input-group-append {
+  margin-left: unset;
+}
+
+.btn-group.d-flex.flex-column {
+  margin-left: 6px;
+}
+
+@media (min-width:990px) {
+  .row-cols-lg-7 > * {
+    -ms-flex: 0 0 14.2%;
+    flex: 0 0 14.2%;
+    max-width: 14.2%;
+  }
+}
+
+label {
+  width: 100%;
+  max-width: 600px;
+  color: #65924f;
+  font: 24px/29px Yanone Kaffeesatz;
+  text-align: left;
+}
+
+#contact input.form-control, #contact input.form-control:focus, textarea.form-control, textarea.form-control:focus {
+  border: none;
+  border-radius: 5px;
+  height: 56px;
+  font: 18px/21px Lato;
+  padding: 8px 8px 8px 15px;
+  margin: 10px 0 0;
+  box-shadow: none;
+}
+
+#deliver .card-body span:first-child {
+  margin: 0 0 8px;
+}
+
+#deliver .card-body span:last-child {
+  font-weight: 300;
+}
+
+.form-row {
+}
+
+.form-group {
+  text-align: center;
+}
+
+label textarea.form-control, label textarea.form-control:focus {
+  height: calc(151px + 1.5rem);
+}
+
+.form-row > .col, .form-row > [class*=col-] {
+  padding: 0 2rem;
+}
+
+#contact .btn:not(:disabled), #contact .btn:not(:disabled):active {
+  background-color: #65924F;
+  border: 2px solid #65924F;
+  color: white;
+  width: 170px;
+  height: 48px;
+  font: bold 20px/21px Lato;
+  text-transform: uppercase;
+}
+
+#contact .btn:hover:not(:disabled) {
+  background-color: white;
+  color: #65924F;
+}
+
+.container *:focus, .container *.focus {
+  box-shadow: none;
+}
+
+#buy .input-group {
+  width: calc(100% + 20px);
+  margin: 0 -10px;
+  justify-content: center;
+}
+
+#buy .btn:hover:not(:disabled) {
+  background-color: transparent;
+  color: #65924f;
+  font-weight: bold;
+}
+
